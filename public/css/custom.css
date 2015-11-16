@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.resource {
+    width: 80vw;
+    border: 1px solid black;
+}
+
+#no-results {
+    height: 60vh;
+}
+
+#no-results-card {
+    width: 40rem;
+}
+
+#fixed-btn {
+    bottom: 32px;
+    right: 24px;
+    font-size: xx-large;
+}
+
+#donate-button {
+    bottom:0;
+    right:0;
+}
